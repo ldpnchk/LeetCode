@@ -16,13 +16,13 @@ public class SolutionTest {
         };
         new Solution().rotate(matrix);
 
-        int[][] expectedResult = {
+        int[][] expected = {
                 { 7, 4, 1 },
                 { 8, 5, 2 },
                 { 9, 6, 3 }
         };
 
-        assertArrayEquals(expectedResult, matrix);
+        assertArrayEquals(expected, matrix);
     }
 
     @Test
@@ -36,14 +36,14 @@ public class SolutionTest {
         };
         new Solution().rotate(matrix);
 
-        int[][] expectedResult = {
+        int[][] expected = {
                 { 15, 13, 2, 5 },
                 { 14, 3, 4, 1 },
                 { 12, 6, 8, 9 },
                 { 16, 7, 10, 11 }
         };
 
-        assertArrayEquals(expectedResult, matrix);
+        assertArrayEquals(expected, matrix);
     }
 
     @Test
@@ -54,11 +54,11 @@ public class SolutionTest {
         };
         new Solution().rotate(matrix);
 
-        int[][] expectedResult = {
+        int[][] expected = {
                 { 1 }
         };
 
-        assertArrayEquals(expectedResult, matrix);
+        assertArrayEquals(expected, matrix);
     }
 
 }

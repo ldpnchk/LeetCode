@@ -12,9 +12,9 @@ public class SolutionTest {
         char[] s = { 'h', 'e', 'l', 'l', 'o' };
         new Solution().reverseString(s);
 
-        char[] expectedResult = { 'o', 'l', 'l', 'e', 'h' };
+        char[] expected = { 'o', 'l', 'l', 'e', 'h' };
 
-        assertArrayEquals(expectedResult, s);
+        assertArrayEquals(expected, s);
     }
 
     @Test
@@ -23,9 +23,9 @@ public class SolutionTest {
         char[] s = { 'H', 'a', 'n', 'n', 'a', 'h' };
         new Solution().reverseString(s);
 
-        char[] expectedResult = { 'h', 'a', 'n', 'n', 'a', 'H' };
+        char[] expected = { 'h', 'a', 'n', 'n', 'a', 'H' };
 
-        assertArrayEquals(expectedResult, s);
+        assertArrayEquals(expected, s);
     }
 
     @Test
@@ -34,9 +34,9 @@ public class SolutionTest {
         char[] s = { 'a' };
         new Solution().reverseString(s);
 
-        char[] expectedResult = { 'a' };
+        char[] expected = { 'a' };
 
-        assertArrayEquals(expectedResult, s);
+        assertArrayEquals(expected, s);
     }
 
 }
