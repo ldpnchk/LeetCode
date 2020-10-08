@@ -26,13 +26,11 @@ public class Solution {
 
         ListNode firstIterator = head;
         for (int i = 1; i < n; i++) {
-            System.out.println("1");
             firstIterator = firstIterator.next;
         }
 
         ListNode secondIterator = null;
         while (firstIterator != null && firstIterator.next != null) {
-            System.out.println("2");
             firstIterator = firstIterator.next;
             secondIterator = secondIterator == null
                     ? head
